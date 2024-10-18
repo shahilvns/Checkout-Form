@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#continar{
+    padding: 20px;
+}
+#checkout_continar{
+    height: 650px;
+    width: 800px;
+    border: 1px solid white;
+    background-color: rgb(218, 220, 221);
+    border-radius: 5px;
+    padding: 10px;
+}
+h2{
+    font-size: 22px;
+}
+i{
+    margin-right: 5px;
+}
+label{
+    margin-left: 13px;
+    font-size: 18px;
+}
+input{
+    height: 25px;
+    width: 350px;
+    margin: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+#checkbox{
+    /*  */
+    width: 20px;
+}
+.payment{
+    position: relative;
+    left: 400px;
+    top: -600px;
+}
+button{
+    height: 35px;
+    width: 100%;
+    background-color: rgb(6, 143, 6);
+    color: white;
+    border: none;
+    margin: 20px 0px 20px 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(5, 107, 11);
+}
+.payment input{
+    height: 25px;
+}
+hr{
+    border: 1px solid lightgray;
+}
+.cart{
+    height: 200px;
+    width: 350px;
+    background-color: rgb(221, 222, 223);
+    position: relative;
+    left: 830px;
+    top: -1100px;
+    border-radius: 5px;
+    padding: 20px;
+}
+span.price{
+    float: right;
+}
+@media (max-width:800px) {
+    #continar{
+        flex-direction: column-reverse;
+    }
+    #cart{
+        margin-bottom: 25px;
+    }
+}
